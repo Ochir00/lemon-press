@@ -1,3 +1,4 @@
+import Newnews from "./Database";
 const BodyNews = () => {
     return (
         <div className="Web-title-news">
