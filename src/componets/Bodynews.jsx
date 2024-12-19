@@ -1,21 +1,3 @@
-const data = [
-    {
-        type: "Зах зээл",
-        title: "Ирэх онд нээлтээ хийх ТОП 10 кино",
-        imgurl: "https://dash-api.yld.mn/api/image/f4cee43c-b1e6-4211-885b-8dc224a43114",
-        postdate: "12 сарын 19, 2024",
-        who: "М.Хулан",
-    },
-    {
-
-    },
-    {
-
-    },
-]
-
-
-
 
 const Bodynews = () => {
     return (
@@ -31,13 +13,26 @@ const Bodynews = () => {
                 </div>
                 <div className="Bodynews-div2">
                     <div className="Bodynews-div2-frame1">
-
+                        <img src="https://dash-api.yld.mn/api/image/f4cee43c-b1e6-4211-885b-8dc224a43114" alt="loading..." />
+                        <div>
+                        <p>Зах зээл</p>
+                        <p>Ирэх онд нээлтээ хийх ТОП 10 кино</p>
+                        <p>М.Хулан  12 сарын 19, 2024</p>
+                        </div>
                     </div>
                     <div className="Bodynews-div2-frame2">
-
+                    <div>
+                        <p>Зах зээл</p>
+                        <p>Ирэх онд нээлтээ хийх ТОП 10 кино</p>
+                        <p>М.Хулан  12 сарын 19, 2024</p>
+                        </div>
                     </div>
                     <div className="Bodynews-div2-frame3">
-
+                    <div>
+                        <p>Зах зээл</p>
+                        <p>Ирэх онд нээлтээ хийх ТОП 10 кино</p>
+                        <p>М.Хулан  12 сарын 19, 2024</p>
+                        </div>
                     </div>
                 </div>
             </div>

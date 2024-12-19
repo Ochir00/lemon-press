@@ -4,7 +4,7 @@ import Header from "./componets/header";
 import Webheadernews from "./componets/Webheadernews";
 import Webheaderwrap from "./componets/web-header-wrap";
 import Bodynews from "./componets/Bodynews";
-
+import Bodynews1 from "./componets/Bodynews2";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <Webheadernews />
       <Webheaderwrap />
       <Bodynews />
+      <Bodynews1 />
     </div>
   );
 };
