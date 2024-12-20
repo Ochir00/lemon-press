@@ -185,6 +185,8 @@
     color: gray;
     font-size: 12px;
 }
+/*  */
+/*  */
 .bodynews1 {
     width: 100%;
     display: flex;
@@ -195,7 +197,43 @@
     height: 490px;
     border-radius: 10px;
     border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cart1:nth-child(1){
     background-color: black;
+}
+.cart1-border {
+    width: 93%;
+    height: 95%;
+    background-color: rgba(0, 255, 255, 0);
+    overflow: scroll;
+    scrollbar-color: rgb(255, 145, 0) rgba(218, 218, 218, 0);
+    scrollbar-width: 100px;
+}
+.cart1-border-head {
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.cart1-border-head p {
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+}
+.cart1-frame1{
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.cart1-frame1 p:nth-child(1){
+    color: gray;
+    font-size: 12px;
+}
+.cart1-frame1 p:nth-child(2){
+    color: white;
+    font-size: 15px;
 }
